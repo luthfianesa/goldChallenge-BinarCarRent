@@ -1,0 +1,46 @@
+.sewaMobil-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.sewaMobil-content-container {
+  background-color: #0D28A6;
+  ;
+  border-radius: 13px;
+  width: 1200px;
+  height: 326px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.sewaMobil-content {
+  color: #FFFFFF;
+}
+
+.sewaMobil-content h1 {
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+.sewaMobil-content p {
+  font-size: 14px; 
+  font-weight: 700;
+  width: 468px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.sewaMobil-content button {
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #5CB85F;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 2px;
+  width: 140px;
+  height: 36px;
+}
+

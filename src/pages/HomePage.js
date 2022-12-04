@@ -6,6 +6,7 @@ import OurServices from "../components/OurServices";
 import { useState } from "react";
 import WhyUs from "../components/WhyUs";
 import Testi from "../components/Testi";
+import RentCar from "../components/RentCar";
 
 const HomePage = () => {
   const [data, setData] = useState([
@@ -41,6 +42,7 @@ const HomePage = () => {
         <OurServices dataOurServices={data}/>
         <WhyUs />
         <Testi />
+        <RentCar />
     </div>
   );
 };
