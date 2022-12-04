@@ -1,0 +1,58 @@
+.whyUs-container {
+  padding-top: 155px;
+}
+
+.why-us-heading {
+  padding-top: 10px;
+  margin-left: 160px;
+}
+
+.why-us-heading h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.why-us-heading p {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.why-us-ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  
+}
+
+.card-container {
+  border: 1px solid #e6dcdc;
+  border-radius: 5px;
+  width: 270px;
+  height: 196px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-container .icon-why-us {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.card-container h4 {
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.card-container p {
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 20px;
+  padding-right: 17px;
+}
+
+
+

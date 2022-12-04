@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import OurServices from "../components/OurServices";
 
 import { useState } from "react";
+import WhyUs from "../components/WhyUs";
 
 const HomePage = () => {
   const [data, setData] = useState([
@@ -37,6 +38,7 @@ const HomePage = () => {
         {/* Lempar data ke OurServices */}
       </div>
         <OurServices dataOurServices={data}/>
+        <WhyUs />
     </div>
   );
 };
