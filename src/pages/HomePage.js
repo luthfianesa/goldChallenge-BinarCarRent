@@ -1,5 +1,6 @@
 import "./pages.css"
 import NavigationBar from "../components/NavigationBar";
+import Header from "../components/Header";
 
 const HomePage = () => {
   
@@ -7,6 +8,7 @@ const HomePage = () => {
     <div>
       <div className="container-for-header-and-navbar">
         <NavigationBar />
+        <Header />
       </div>
     </div>
   );
