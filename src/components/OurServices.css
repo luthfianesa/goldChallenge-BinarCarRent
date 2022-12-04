@@ -1,0 +1,36 @@
+.ourServices-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 120px;
+}
+
+.txt-ourServices-container {
+  width: 450px;
+  padding-top: 35px;
+}
+
+.txt-ourServices-container h1 {
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.txt-ourServices-container .p-1 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.txt-ourServices-container .p-2 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 10px;
+}
+
+.looped-txt {
+  display: flex;
+  
+}
+
+.eclipse {
+  padding-right: 15px;
+}

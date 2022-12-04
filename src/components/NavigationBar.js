@@ -7,9 +7,9 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 
 const NavigationBar = () => {
   return (
-    <div>
+    <div className="navbar-outer-container">
       {['lg'].map((expand) => (
-        <Navbar key={expand}  expand={expand} className="mb-3 ">
+        <Navbar key={expand} expand={expand} className="mb-3 navbar-container" fixed="top">
           
           <Container >
           

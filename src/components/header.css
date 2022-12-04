@@ -1,6 +1,8 @@
 .header-container {
   display: flex;
   justify-content: space-between;
+  padding-top: 100px;
+  background-color: #F1F3FF;
 }
 
 .txt-header-container {
