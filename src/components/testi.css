@@ -1,0 +1,88 @@
+.testi-container {
+  padding-top: 100px;
+}
+
+.txt-testi h1 {
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.txt-testi p {
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+.testi h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.testi p {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-outer-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.carousel-inner-container {
+  background-color: #f1f3ff;
+  width: 640px;
+  padding-bottom: 50px;
+  border-radius: 8px;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+.img-carousel {
+  position: relative;
+  top: 95px;
+  left: 40px;
+}
+
+.txt-carousel {
+  width: 430px;
+  position: relative;
+  left: 180px;
+  bottom: 30px;
+}
+
+.txt-carousel img {
+  position: relative;
+  top: 12px;
+}
+
+.txt-carousel p {
+  font-size: 14px;
+  font-weight: 700;
+  padding-top: 15px;
+}
+
+.txt-carousel span {
+  position: relative;
+  bottom: 10px;
+}
+
+.carousel-indicators {
+  position: relative;
+  top: 0;
+}
+
+.carousel-control-prev-icon {
+  position: relative;
+  right: 80px;
+}
+
+.carousel-control-next-icon {
+  position: relative;
+  left: 80px;
+}

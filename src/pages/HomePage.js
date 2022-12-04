@@ -5,6 +5,7 @@ import OurServices from "../components/OurServices";
 
 import { useState } from "react";
 import WhyUs from "../components/WhyUs";
+import Testi from "../components/Testi";
 
 const HomePage = () => {
   const [data, setData] = useState([
@@ -39,6 +40,7 @@ const HomePage = () => {
       </div>
         <OurServices dataOurServices={data}/>
         <WhyUs />
+        <Testi />
     </div>
   );
 };
