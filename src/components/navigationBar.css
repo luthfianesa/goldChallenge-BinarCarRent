@@ -1,0 +1,20 @@
+.navBarContainer {
+  background-color: #F1F3FF !important;
+} 
+
+.nav-brand {
+position: relative;
+left: 10px;
+}
+
+.nav-list {
+  gap: 12px;
+  position: relative;
+  right: 125px;
+}
+
+.nav-link {
+  color: #000000 !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+}
