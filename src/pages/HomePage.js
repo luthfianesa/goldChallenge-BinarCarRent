@@ -8,6 +8,7 @@ import WhyUs from "../components/WhyUs";
 import Testi from "../components/Testi";
 import RentCar from "../components/RentCar";
 import Faq from "../components/Faq";
+import Footer from "../components/Footer";
 
 const HomePage = () => {
   const [data, setData] = useState([
@@ -45,6 +46,7 @@ const HomePage = () => {
         <Testi />
         <RentCar />
         <Faq />
+        <Footer />
     </div>
   );
 };
