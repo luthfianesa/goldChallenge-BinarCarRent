@@ -61,7 +61,7 @@ const SearchCar = () => {
   return (
     <div>
       <NavigationBar />
-      <Header />
+      <Header isBtnShow={false}/>
       {/* Kirim Data */}
       <Filter handleFilter={handleFilter} fName={handleFilterName} fCategory={handleFilterCategory} fMinPrice={handleFilterMinPrice} fMaxPrice={handleFilterMaxPrice} fStatus={handleFilterStatus} isInputDisable={false} />
       <CardFilter carData={carData} />

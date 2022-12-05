@@ -1,6 +1,5 @@
 import "../components/cardFilter.css";
-import { useEffect, useState } from "react";
-import axios from "axios";
+import { Link } from "react-router-dom";
 
 
 const CardFilter = (props) => {
@@ -22,7 +21,8 @@ const CardFilter = (props) => {
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                   </div>
                   <div className="container-btn">
-                  <button>Pilih Mobil</button>
+                    <Link to={`/cardetail/${items.id}`}>
+                    <button>Pilih Mobil</button></Link>
                   </div>
                 </div>
               );

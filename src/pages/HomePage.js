@@ -38,7 +38,7 @@ const HomePage = () => {
     <div>
       <div className="container-for-header-and-navbar">
         <NavigationBar />
-        <Header />
+        <Header isBtnShow={true}/>
         {/* Lempar data ke OurServices */}
       </div>
         <OurServices dataOurServices={data}/>

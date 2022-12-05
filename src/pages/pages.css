@@ -5,3 +5,21 @@
 .container-for-header-and-navbar {
   background-color: #F1F3FF;
 }
+
+/* Car Detail Page */
+.card-detail-filter-container {
+padding-right: 50px;
+}
+
+.detail-info-container {
+  display: flex;
+  padding-left: 60px;
+}
+
+
+
+.empty-header {
+  background-color: #F1F3FF;
+  width: 100%;
+  height: 250px;
+}
